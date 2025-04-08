@@ -2,16 +2,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "VCFrameworkPackage",
+    name: "VC",
     platforms: [.iOS(.v13)],
     products: [
-        .library(name: "VCFrameworkPackage", targets: ["VCFrameworkPackage"]),
+        .library(name: "VC", targets: ["VC"]),
     ],
     targets: [
         .binaryTarget(
-            name: "VCFrameworkPackage",
-            url: "https://github.com/kailea/VCFramework/releases/download/v1.0.5/VCFramework-v1.0.5.xcframework.zip",
-            checksum: "4259831b380ee6923fc19cdd6ef6338e545b69ecfb6b862c665dd32a9175b7e7"
+            name: "VC",
+            url: "https://github.com/kailea/VCFramework/releases/download/v1.0.6/VCFramework-v1.0.6.xcframework.zip",
+            checksum: "0277883e7dbebe438eb067ac318ee7a9724ee9c864340fa6bdabfea5007693d6"
         )
     ]
 )
