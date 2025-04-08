@@ -10,8 +10,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "VCFrameworkPackage",
-            url: "https://github.com/kailea/VCFramework/releases/download/1.0.0/VCFramework-v1.0.0.zip",
-            checksum: "50a66131727d82aa61af07d8c9767d9fb603d6f1844eb193c5c1f18b46ce94cb"
+            url: "https://github.com/kailea/VCFramework/releases/download/v1.0.1/VCFramework-vv1.0.1.zip",
+            checksum: "428b8ef7c56920dc94b31fb48c4a44b3677ac136c96a9feac3af8954b757cc83"
         )
     ]
 )
